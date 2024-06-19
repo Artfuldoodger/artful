@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+}
+#hero{
+    position: relative;
+}
+.bg-black{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.bg-img-hero{
+    background-image: url(hero-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;  
+}
+.over-layer-hero{
+    background-color:  rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.w-95{
+    width: 95%;
+}
+.w-85{
+    width: 85%;
+}
+.text-title .title{
+    position: relative;
+}
+.text-title .title::before{
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    height: 3px;
+    background-color: #0078FF;
+    width: 100px; 
+}
+.line-mf{
+    width: 40px;
+    height: 5px;
+    background-color: #0078FF;
+    margin: 0 auto;
+}
+.service-icon .icon-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow:  0 0 0 10px #0078FF;
+    transition: all 0.3s ease-out;
+}
+.service-box .icon-circle i{
+    font-size: 40px;
+}
+.service-icon .icon-circle:hover{
+    box-shadow: 0 0 0 10px #c3bbbb;
+    background-color: #0078FF;
+}
+#hero .container-fluid{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.bg-img-counter{
+    background-image: url(post-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 8rem 0;
+    
+}
+.over-layer-mf{
+    background-color:  #0078FF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    z-index: 100;
+}
+.counter-icon i{
+    font-size: 16px;
+    color: #fff;
+}
+.counter-icon .icon-circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow:  0 0 0 10px #c6cfdb;
+    z-index: 9999;
+}
+.counter-num{
+    z-index: 9999;
+}
+.counter-text{
+    z-index: 9999;
+}
+.bg-img-slider{
+    background-image: url(overlay-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 8rem 0;
+    z-index: 100;
+}
+
+.author-test img {
+    z-index: 999999;
+}
+.author-test span{
+    z-index: 99999;
+}
+.content-test p{
+    position: absolute;
+    z-index: 9999;
+}
+.card-category-box{
+    position: absolute;
+    top: -16px;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+
+}
+.card-category{
+    display: inline;
+    color: #fff;
+    padding: 0 15px 5px;
+    background-color: #0078FF;
+}
+.w-32{
+    width: 32px;
+    height: 32px;
+}
+.card-title a{
+    color: #1e1e1e;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+
+}
+.card-title a:hover{
+    color: #0078FF;
+}
+.post-author span{
+    color: #1e1e1e;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.post-author span:hover{
+    color: #0078FF;
+}
+.bg-img-contact{
+    background-image: url(overlay-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 8rem 0;
+}
+.box-shadow-full{
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    padding: 3rem;
+    z-index: 999;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.form-button button{
+    background-color: #0078FF;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+}
+.w-16{
+    width: 16px;
+    height: 16px;
+}
+.text-primary i{
+    font-size: 30px;
+}
+.icon-gp li{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+     border-radius: 50%;
+     border: 3px solid #0078FF;
+     transition: all 0.3s ease-in-out;
+}
+.icon-gp li:hover{
+    background-color: #0078FF;
+    border-color: #c3bbbb;
+}
+.work-box{
+    overflow: hidden;
+}
+.work-box img{
+    display: block;
+    transition: transform 0.5s ease;
+}
+.work-box img:hover{
+    transform: scale(1.1);
+}
+.title-box .title{
+    position: relative;
+}
+.title-box .title::before{
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    height: 3px;
+    width: 100px;
+    background-color: #0078FF;
+}
+   
